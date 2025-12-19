@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Parties & Events - Kiddies Fun World</title>
+    <meta name="description" content="Host unforgettable birthday parties at Kiddies Fun World. Choose from Basic, Deluxe, or Premium packages with decorations, games, food, and more!">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-castle"></i>
+                    <span>Kiddies Fun World</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="parties.html" class="active">Birthday Parties</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="safety.html">Safety</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Unforgettable Birthday Parties! 🎂</h1>
+            <p class="page-subtitle">Celebrate your child's special day with magical memories at Kiddies Fun World</p>
+        </div>
+    </section>
+
+    <!-- Party Packages -->
+    <section class="party-packages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Choose Your Perfect Party Package 🎁</h2>
+                <p class="section-subtitle">Everything you need for a stress-free celebration</p>
+            </div>
+            <div class="packages-grid">
+                <!-- Basic Package -->
+                <div class="package-card">
+                    <div class="package-header basic">
+                        <h3>Basic Package</h3>
+                        <div class="package-price">
+                            <span class="price">$299</span>
+                            <span class="price-label">Up to 15 kids</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> 2-hour party room access</li>
+                        <li><i class="fas fa-check"></i> Unlimited play area access</li>
+                        <li><i class="fas fa-check"></i> Basic decorations (balloons & banners)</li>
+                        <li><i class="fas fa-check"></i> Party host assistance</li>
+                        <li><i class="fas fa-check"></i> Tables & chairs setup</li>
+                        <li><i class="fas fa-check"></i> Paper plates, cups & napkins</li>
+                        <li><i class="fas fa-check"></i> Juice boxes for all guests</li>
+                        <li><i class="fas fa-check"></i> Birthday crown for birthday child</li>
+                    </ul>
+                    <a href="#party-form" class="btn-secondary btn-block">Book Basic Package</a>
+                </div>
+
+                <!-- Deluxe Package -->
+                <div class="package-card popular">
+                    <div class="package-badge">Most Popular</div>
+                    <div class="package-header deluxe">
+                        <h3>Deluxe Package</h3>
+                        <div class="package-price">
+                            <span class="price">$499</span>
+                            <span class="price-label">Up to 20 kids</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> 3-hour party room access</li>
+                        <li><i class="fas fa-check"></i> Unlimited play area access</li>
+                        <li><i class="fas fa-check"></i> <strong>Premium themed decorations</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Dedicated party coordinator</strong></li>
+                        <li><i class="fas fa-check"></i> Tables & chairs setup</li>
+                        <li><i class="fas fa-check"></i> <strong>Premium tableware</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Pizza & snacks for all guests</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Juice boxes & soft drinks</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Birthday cake (custom design)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Party games & activities</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Goodie bags for guests</strong></li>
+                        <li><i class="fas fa-check"></i> Special birthday crown & sash</li>
+                    </ul>
+                    <a href="#party-form" class="btn-primary btn-block">Book Deluxe Package</a>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="package-card">
+                    <div class="package-header premium">
+                        <h3>Premium Package</h3>
+                        <div class="package-price">
+                            <span class="price">$799</span>
+                            <span class="price-label">Up to 30 kids</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <strong>4-hour exclusive party room</strong></li>
+                        <li><i class="fas fa-check"></i> Unlimited play area access</li>
+                        <li><i class="fas fa-check"></i> <strong>Luxury themed decorations</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Personal party planner</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Professional photographer</strong></li>
+                        <li><i class="fas fa-check"></i> Tables & chairs setup</li>
+                        <li><i class="fas fa-check"></i> <strong>Luxury tableware & centerpieces</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Full meal service (pizza, hot dogs, fries)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Beverages & smoothie bar</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Custom 2-tier birthday cake</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Entertainment (magician or character)</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Interactive party games</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Deluxe goodie bags</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Party favors & thank you cards</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>Digital photo album</strong></li>
+                        <li><i class="fas fa-check"></i> VIP birthday crown, sash & medal</li>
+                    </ul>
+                    <a href="#party-form" class="btn-secondary btn-block">Book Premium Package</a>
+                </div>
+            </div>
+            <div class="package-note">
+                <i class="fas fa-info-circle"></i>
+                <p>All packages can be customized to your needs. Additional guests: $15 per child. Weekend bookings recommended 3 weeks in advance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Party Themes -->
+    <section class="party-themes">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Party Themes 🎨</h2>
+                <p class="section-subtitle">Choose from our amazing themed party options</p>
+            </div>
+            <div class="themes-grid">
+                <div class="theme-card">
+                    <div class="theme-icon">👑</div>
+                    <h3>Princess Palace</h3>
+                    <p>Royal celebration with crowns, tiaras, and magical decorations</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🦸</div>
+                    <h3>Superhero Adventure</h3>
+                    <p>Save the day with capes, masks, and hero training activities</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🏴‍☠️</div>
+                    <h3>Pirate Treasure</h3>
+                    <p>Ahoy matey! Treasure hunts and pirate adventures await</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🦄</div>
+                    <h3>Unicorn Magic</h3>
+                    <p>Sparkles, rainbows, and magical unicorn decorations</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🦖</div>
+                    <h3>Dinosaur Land</h3>
+                    <p>Prehistoric fun with dino decorations and fossil hunts</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🚀</div>
+                    <h3>Space Explorer</h3>
+                    <p>Blast off to the stars with rockets and planets</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🧚</div>
+                    <h3>Fairy Garden</h3>
+                    <p>Enchanted forest with fairies, flowers, and magic</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">🏎️</div>
+                    <h3>Racing Cars</h3>
+                    <p>Speed into fun with racing-themed decorations and games</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Party Gallery -->
+    <section class="party-gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Party Memories 📸</h2>
+                <p class="section-subtitle">See the joy and excitement from recent celebrations</p>
+            </div>
+            <div class="party-gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                        <p>Princess Party</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-mask"></i>
+                        <p>Superhero Party</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-ship"></i>
+                        <p>Pirate Adventure</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-rainbow"></i>
+                        <p>Unicorn Magic</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-rocket"></i>
+                        <p>Space Party</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <i class="fas fa-dragon"></i>
+                        <p>Dinosaur Party</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Party Booking Form -->
+    <section class="party-form-section" id="party-form">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Book Your Party Today! 🎉</h2>
+                <p class="section-subtitle">Fill out the form below and we'll contact you within 24 hours</p>
+            </div>
+            <div class="form-container">
+                <form id="partyBookingForm" class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="childName">Birthday Child's Name *</label>
+                            <input type="text" id="childName" name="childName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">Child's Age *</label>
+                            <input type="number" id="age" name="age" min="1" max="12" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="partyDate">Preferred Date *</label>
+                            <input type="date" id="partyDate" name="partyDate" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="package">Package *</label>
+                            <select id="package" name="package" required>
+                                <option value="">Select a package</option>
+                                <option value="basic">Basic Package - $299 (Up to 15 kids)</option>
+                                <option value="deluxe">Deluxe Package - $499 (Up to 20 kids)</option>
+                                <option value="premium">Premium Package - $799 (Up to 30 kids)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests *</label>
+                            <input type="number" id="guests" name="guests" min="10" max="50" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="theme">Preferred Theme</label>
+                        <select id="theme" name="theme">
+                            <option value="">Select a theme</option>
+                            <option value="princess">Princess Palace</option>
+                            <option value="superhero">Superhero Adventure</option>
+                            <option value="pirate">Pirate Treasure</option>
+                            <option value="unicorn">Unicorn Magic</option>
+                            <option value="dinosaur">Dinosaur Land</option>
+                            <option value="space">Space Explorer</option>
+                            <option value="fairy">Fairy Garden</option>
+                            <option value="racing">Racing Cars</option>
+                            <option value="custom">Custom Theme</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="specialRequests">Special Requests or Dietary Requirements</label>
+                        <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Tell us about any allergies, special requirements, or custom requests..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-lg btn-block">
+                        <i class="fas fa-paper-plane"></i> Submit Party Booking Request
+                    </button>
+                    <p class="form-note">* Required fields. We'll contact you within 24 hours to confirm availability and finalize details.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Party FAQs 💡</h2>
+                <p class="section-subtitle">Common questions about birthday parties</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> How far in advance should I book?</h3>
+                    <p>We recommend booking at least 2-3 weeks in advance, especially for weekend parties. Popular dates can fill up quickly!</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Can I bring my own cake?</h3>
+                    <p>Yes! You're welcome to bring your own cake. Our Deluxe and Premium packages include custom cakes, but you can substitute with your own if preferred.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Are parents required to stay?</h3>
+                    <p>At least one parent/guardian must stay for children under 5. For older children, parents are welcome to stay or drop off and return at the end.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What if I have more guests than my package includes?</h3>
+                    <p>Additional guests are welcome at $15 per child. We can accommodate up to 50 children total with advance notice.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Can I customize my party package?</h3>
+                    <p>Absolutely! We're happy to customize any package to fit your needs. Contact us to discuss your specific requirements.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What's your cancellation policy?</h3>
+                    <p>Full refund if cancelled 14+ days before the party. 50% refund for 7-13 days notice. No refund for cancellations within 7 days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Make Your Child's Birthday Unforgettable! 🎊</h2>
+                <p class="cta-subtitle">Book now and let us handle everything while you enjoy the celebration!</p>
+                <div class="cta-buttons">
+                    <a href="#party-form" class="btn-primary btn-lg">
+                        <i class="fas fa-birthday-cake"></i> Book a Party Now
+                    </a>
+                    <a href="contact.html" class="btn-outline-white btn-lg">
+                        <i class="fas fa-phone"></i> Call Us: (555) 123-4567
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-castle"></i>
+                        <span>Kiddies Fun World</span>
+                    </div>
+                    <p>Where fun, laughter, and adventure begin! Your trusted partner in creating magical childhood memories.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="parties.html">Birthday Parties</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="safety.html">Safety Guidelines</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@kiddiesfunworld.com</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp: +1 (555) 123-4567</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sun: 9AM - 8PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kiddies Fun World. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
